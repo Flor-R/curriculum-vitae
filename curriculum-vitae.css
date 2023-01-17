@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amaranth', sans-serif;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+p {
+    text-align: justify;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height:1000px ;
+    background: rgb(255, 255, 255);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 55px rgba (0,0,0,0.1)
+}
+
+.container .lado_izquierdo {
+    position:relative;
+    background: rgb(252, 50, 83);
+    padding: 40px;
+
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgBx {
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.info-de-contacto {
+    padding-top: 40px;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  
+    
+}
+
+.info-de-contacto ul {
+    position: relative;
+   
+    
+    
+}
+.info-de-contacto ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+   
+    
+}
+
+.info-de-contacto ul li .icono {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: justified; 
+    height: 10px ;
+}
+
+.info-de-contacto ul li span {
+    color: white;
+    font-weight: 300px;
+    font-size: 1em;
+}
+.educacion .titulo {
+    margin-top: 45px;
+}
+.educacion li {
+    margin-bottom: 15px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.educacion h4 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.2em;
+}
+
+.educacion  h5 {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1em;
+}
+
+
+.educacion ul li h4 .icono {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: justified; 
+    height: 10px ;
+}
+
+.educacion ul li h4 {
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+.educacion ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.idiomas .titulo {
+    margin-top: 45px;
+}
+
+.idiomas li {
+    margin-bottom: 15px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.idiomas h4 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.2em;
+}
+
+.idiomas  h5 {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1em;
+}
+
+
+.idiomas ul li h4 .icono {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: justified; 
+    height: 10px ;
+}
+
+.idiomas ul li h4 {
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+.idiomas ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.container .lado_derecho {
+    position:relative;
+    background: rgba(253, 199, 213, 0.966);
+    padding: 40px;
+
+}
+
+.titulo2 {
+    color: rgb(252, 50, 83) ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+p {
+    color: rgb(51, 40, 40);
+}
+
+.sobre-mi .caja {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.sobre-mi .caja .año {
+    min-width: 150px;
+}
+
+.sobre-mi .caja .año h5 {
+    text-transform: uppercase;
+    color:rgb(104, 53, 77) ;
+    font-weight: 600;
+}
+
+.sobre-mi .caja .texto h4 {
+    text-transform: uppercase;
+    color:rgb(255, 107, 151);
+    font-size: 15px;
+    
+}
+
+.habilidades .titulo2 .caja {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.habilidades .caja  h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h4 {
+    color:rgb(51, 40, 40);
+}
+    
+input.printbutton  {
+    font-size: 25px;
+    margin: 30px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius:  5px;
+    box-shadow: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transition: .5s;
+
+}
+input.printbutton:hover {
+    background-color: rgb(248, 142, 142);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
